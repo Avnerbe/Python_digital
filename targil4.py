@@ -8,8 +8,9 @@ sum2=cucumber*2
 sum3=kola*5
 sum4=chicken*20
 summery=sum1+sum2+sum3+sum4
-print("total price="+str(summery)+"nis")
-print("total price="+str(summery*1.17)+"nis with tax")
+print("total price="+str(summery)+" nis")
+print("total price="+str("%.2f" % (summery*1.17))+"  nis with tax")
+
 
 
 
